@@ -2,3 +2,6 @@ baseURL = "https://cscheidies.github.io/chris-scheidies/"
 languageCode = "en-us"
 title = "Chris Scheidies"
 paginate = 5
+
+[markup.goldmark.renderer]
+  unsafe = true
