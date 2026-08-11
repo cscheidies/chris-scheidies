@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ .Title }} — Chris Scheidies</title>
-  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
 </head>
 <body>
   <header>
-    <a href="{{ "/" | relURL }}" class="home-link">← Chris Scheidies</a>
+    <a href="{{ site.BaseURL }}" class="home-link">← Chris Scheidies</a>
   </header>
   <main>
     {{ block "main" . }}{{ end }}
