@@ -2,4 +2,6 @@
 title: "Bass"
 ---
 
-*Content coming soon.*
+{{< youtube "MNsZFpePrs0" >}}
+
+{{< youtube "H8ouSXguNuo" >}}

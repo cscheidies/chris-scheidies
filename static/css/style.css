@@ -138,3 +138,21 @@ hr {
   border-top: 1px solid #eee;
   margin: 2rem 0;
 }
+
+/* YouTube embeds */
+.content iframe,
+.youtube-container iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: none;
+  margin: 1rem 0;
+}
+
+/* Images in content */
+.content img {
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  display: inline-block;
+  vertical-align: top;
+}
