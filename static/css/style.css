@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Courier New', Courier, monospace;
-  background: #fff;
-  color: #111;
+  background: #0a0a0a;
+  color: #d4d4d4;
   line-height: 1.7;
 }
 
@@ -23,7 +23,7 @@ body {
   height: 340px;
   object-fit: cover;
   object-position: center;
-  filter: grayscale(100%);
+  filter: grayscale(100%) brightness(0.7);
   display: block;
 }
 
@@ -36,12 +36,13 @@ body > main {
 h1 {
   font-size: 2rem;
   font-weight: bold;
+  color: #f0f0f0;
   margin-bottom: 0.3rem;
 }
 
 .tagline {
   font-size: 0.95rem;
-  color: #555;
+  color: #888;
   margin-bottom: 2rem;
 }
 
@@ -56,13 +57,14 @@ nav ul li {
 
 nav ul li a,
 .links a {
-  color: #111;
+  color: #c8c8c8;
   text-decoration: none;
   font-size: 1rem;
 }
 
 nav ul li a:hover,
 .links a:hover {
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -73,19 +75,19 @@ nav ul li a:hover,
 
 /* ── Inner pages ── */
 header {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #222;
   padding: 1rem 2rem;
 }
 
 .home-link {
   font-family: 'Courier New', Courier, monospace;
-  color: #555;
+  color: #888;
   text-decoration: none;
   font-size: 0.9rem;
 }
 
 .home-link:hover {
-  color: #111;
+  color: #d4d4d4;
 }
 
 article.page {
@@ -96,18 +98,26 @@ article.page {
 
 article.page h1 {
   font-size: 1.8rem;
+  color: #f0f0f0;
   margin-bottom: 1.5rem;
 }
 
 .content h2 {
   font-size: 1.1rem;
+  color: #f0f0f0;
   margin: 2rem 0 0.75rem;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
+.content h3, .content h4 {
+  color: #d4d4d4;
+  margin: 1rem 0 0.4rem;
+}
+
 .content p {
   margin-bottom: 1rem;
+  color: #c0c0c0;
 }
 
 .content ul {
@@ -117,31 +127,31 @@ article.page h1 {
 
 .content ul li {
   padding: 0.2rem 0;
+  color: #c0c0c0;
 }
 
 .content ul li::before {
   content: "— ";
-  color: #999;
+  color: #555;
 }
 
 .content a {
-  color: #111;
+  color: #aaa;
   text-decoration: underline;
 }
 
 .content a:hover {
-  color: #555;
+  color: #fff;
 }
 
 hr {
   border: none;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #222;
   margin: 2rem 0;
 }
 
 /* YouTube embeds */
-.content iframe,
-.youtube-container iframe {
+.content iframe {
   width: 100%;
   aspect-ratio: 16/9;
   border: none;
@@ -161,7 +171,7 @@ hr {
   height: 180px;
   object-fit: cover;
   display: block;
-  border: 1px solid #eee;
+  border: 1px solid #222;
 }
 
 /* Images in content (fallback) */
