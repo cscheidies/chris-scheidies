@@ -1,27 +1,4 @@
 baseURL = "https://cscheidies.github.io/chris-scheidies/"
 languageCode = "en-us"
 title = "Chris Scheidies"
-theme = "PaperMod"
 paginate = 5
-
-[params]
-  env = "production"
-  title = "Chris Scheidies"
-  description = "Personal site"
-  author = "Chris Scheidies"
-  ShowReadingTime = false
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = false
-  ShowCodeCopyButtons = true
-  ShowToc = false
-
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/cscheidies"
-
-[[menu.main]]
-  identifier = "about"
-  name = "About"
-  url = "/about/"
-  weight = 10
