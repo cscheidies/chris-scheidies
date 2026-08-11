@@ -15,20 +15,13 @@ paginate = 5
   ShowBreadCrumbs = false
   ShowCodeCopyButtons = true
   ShowToc = false
-  homeInfoParams = true
 
-  [params.homeInfoParams]
-    Title = "Hi, I'm Chris Scheidies"
-    Content = ""
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/cscheidies"
 
-  [params.socialIcons]
-    [[params.socialIcons]]
-      name = "github"
-      url = "https://github.com/cscheidies"
-
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 10
